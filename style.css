@@ -8,7 +8,6 @@
 :root {
 --Dark-Violet: hsl(256, 26%, 20%)
 --Grayish-Blue: hsl(216, 30%, 68%)
-
 --Very-Dark-Violet: hsl(270, 9%, 17%)
 --Dark-Grayish-Violet:hsl(273, 4%, 51%)
 --Very-Light-Gray:hsl(0, 0%, 98%)
@@ -27,14 +26,27 @@ header {
     }
 header a {
     text-decoration: none;
-    color: black;
+    color: hsl(273, 4%, 51%);
     display: inline-block;
     padding: 0px 10px;
     cursor: pointer;
 }
+header a:hover{
+    color: hsl(270, 9%, 17%);
+    font-weight: 700;
+}
 header img {
     height: 1rem;
 }
-header ul nav a:last-child {
-    background-color: var(--Dark-Violet);
+button {
+    background-color: white;
+    font-size: 12px;
+    font-size: bold;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:hsl(270, 9%, 17%);
+    color: white;
 }
