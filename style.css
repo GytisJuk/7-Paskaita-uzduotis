@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+--Dark-Violet: hsl(256, 26%, 20%)
+--Grayish-Blue: hsl(216, 30%, 68%)
+
+--Very-Dark-Violet: hsl(270, 9%, 17%)
+--Dark-Grayish-Violet:hsl(273, 4%, 51%)
+--Very-Light-Gray:hsl(0, 0%, 98%)
+}
+body{
+font-family: 'Karla', sans-serif;
+font-size: 16px;
+font-weight: 400;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100rem;
+    margin: 0 auto;
+    }
+header a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+header img {
+    height: 1rem;
+}
+header ul nav a:last-child {
+    background-color: var(--Dark-Violet);
+}
