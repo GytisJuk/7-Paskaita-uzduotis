@@ -141,13 +141,25 @@ h2{
     border: 2px solid white;
     color: white;
 }
+.how-we-work button:hover{
+    background-color: white;
+    color: hsl(256, 26%, 20%);
+    font-weight: bold;
+}
 footer{
-    margin:10px 150px; ;
+    position: relative;
+    background-color:  hsl(0, 0%, 98%);
+    }
+footer .footer-img {
+position: absolute;
+margin: 20px;
+
 }
 footer div {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    margin:10px 150px;
     margin-bottom: 20px;
 }
 footer img:first-child {
@@ -164,13 +176,19 @@ text-decoration: none;
 color:hsl(270, 9%, 17%);
 }
 li{
-    list-style: none;
+    list-style:none ;
     margin-bottom: 7px;
     color:hsl(270, 9%, 17%);
     font-weight: 700;
+}
+li:hover{
+    text-decoration: underline;
 }
 h4{
     margin-bottom: 20px;
     color: hsl(273, 4%, 51%);
     font-weight: 700;
+}
+.logo {
+    cursor: pointer;
 }
