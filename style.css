@@ -99,3 +99,45 @@ margin-bottom: 30px;
     width: 80%;
     margin-top: 70px;
 }
+h2{
+    font-size: 70px;
+    margin:70px 150px;
+}
+.features-section{
+    display: flex;
+    margin:10px 150px;
+
+}
+.feature-itims {
+    margin: 10px;
+}
+.features-section img {
+    margin-bottom: 30px;
+    width: 80px;
+}
+.features-section h3 {
+    margin-bottom: 20px;
+}
+.features-section p{
+    color: hsl(273, 4%, 51%);
+}
+.how-we-work {
+    background-color:hsl(256, 26%, 20%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:70px 150px;
+}
+.how-we-work h1{
+    color: white;
+    margin: 40px 80px;
+    font-size: 50px;
+}
+.how-we-work button{
+    background-color: hsl(256, 26%, 20%);
+    margin-right: 80px;
+    width: 130px;
+    height: 30px;
+    border: 2px solid white;
+    color: white;
+}
