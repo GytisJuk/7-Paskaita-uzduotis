@@ -141,3 +141,36 @@ h2{
     border: 2px solid white;
     color: white;
 }
+footer{
+    margin:10px 150px; ;
+}
+footer div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+footer img:first-child {
+    margin-right: 800px;
+    }
+.list-items{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+.list-items ul li a {
+text-decoration: none;
+color:hsl(270, 9%, 17%);
+}
+li{
+    list-style: none;
+    margin-bottom: 7px;
+    color:hsl(270, 9%, 17%);
+    font-weight: 700;
+}
+h4{
+    margin-bottom: 20px;
+    color: hsl(273, 4%, 51%);
+    font-weight: 700;
+}
