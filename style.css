@@ -7,19 +7,18 @@
 }
 
 :root {
---Dark-Violet: hsl(256, 26%, 20%)
---Grayish-Blue: hsl(216, 30%, 68%)
---Very-Dark-Violet: hsl(270, 9%, 17%)
---Dark-Grayish-Violet:hsl(273, 4%, 51%)
---Very-Light-Gray:hsl(0, 0%, 98%)
+--Dark-Violet: hsl(256, 26%, 20%);
+--Grayish-Blue: hsl(216, 30%, 68%);
+--Very-Dark-Violet: hsl(270, 9%, 17%);
+--Dark-Grayish-Violet:hsl(273, 4%, 51%);
+--Very-Light-Gray:hsl(0, 0%, 98%);
 }
 body{
 font-family: 'Karla', sans-serif 'DM Serif Display', serif;
 font-size: 16px;
 font-weight: 400;
 }
-header{
-}
+
 header .logo{
     display: flex;
     justify-content: center;
@@ -28,6 +27,7 @@ header .logo{
 .content-wrapper {
     display: flex;
     justify-content: space-between;
+    text-transform: uppercase;
     margin:10px 150px;
 }
 div .logo{
@@ -140,6 +140,7 @@ h2{
     height: 30px;
     border: 2px solid white;
     color: white;
+    cursor: pointer;
 }
 .how-we-work button:hover{
     background-color: white;
@@ -153,7 +154,6 @@ footer{
 footer .footer-img {
 position: absolute;
 margin: 20px;
-
 }
 footer div {
     display: flex;
@@ -192,3 +192,12 @@ h4{
 .logo {
     cursor: pointer;
 }
+@media only screen and (max-width:375px){
+    header .family-section {
+        display: block;
+        text-align: left;
+    }   
+    h1{
+        text-align: center;
+    }
+    }
